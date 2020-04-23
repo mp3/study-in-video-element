@@ -1,0 +1,27 @@
+{
+  "name": "study-in-video-element",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mp3/study-in-video-element.git",
+  "author": "mp3 <im.in.a.coma.xxx@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "typecheck": "tsc -p . --noEmit",
+    "test": "jest",
+    "deploy": "netlify deploy -d dist --prod"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "netlify-cli": "^2.47.0",
+    "parcel": "^1.12.4",
+    "typescript": "^3.8.3"
+  }
+}
